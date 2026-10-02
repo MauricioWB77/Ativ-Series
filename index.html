@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Série</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <h1>Cadastro de séries</h1>
+
+        <label for="name"><strong>Nome da série:</strong></label> <br>
+        <input type="text" id="nome" name="nome" required>
+        <br> <br>
+
+        <label for="namest"><strong>Streaming onde a série é exibida:</strong></label> <br>
+        <input type="text" id="namest" name="namest" placeholder="exemplo: Netflix" required>
+        <br>  <br>
+
+        <label for="autor"><strong>Autor ou Criador:</strong></label> <br>
+        <input type="text" id="autor" name="autor" required>
+        <br> <br>
+
+        <label for="temporadas"><strong>Quantidade de temporadas:</strong></label> <br>
+        <select id="temporadas" name="temporadas" required>
+            <option value="">selecione...</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="mais_de_10">Mais de 10</option>
+        </select>
+        <br> <br>
+
+        <label for="ano"><strong>Ano de criação:</strong></label> <br>
+        <input type="number" id="ano" name="ano" required>
+        <br> <br>
+
+        <fieldset>
+            <legend>Personagens Principais</legend>
+
+            <label for="personagem1"><strong>1º personagem</strong></label> <br>
+            <input type="text" id="personagem1" name="personagem1" required>
+            <br> <br>
+
+            <label for="personagem2"><strong>2º personagem</strong></label> <br>
+            <input type="text" id="personagem2" name="personagem2" required>
+            <br> <br>
+
+            <label for="personagem3"><strong>3º personagem</strong></label> <br>
+            <input type="text" id="personagem3" name="personagem3" required>
+        </fieldset>
+        <br> <br>
+
+        <button type="submit" style="background-color:  crimson; color: whitesmoke;">Salvar</button>
+        <button type="reset" style="background-color: aqua; color: whitesmoke;">Limpar</button> 
+        <button type="button" style="background-color: limegreen; color: whitesmoke;">Editar</button>
+        <button type="button" style="background-color: blueviolet; color: whitesmoke">Consultar</button>
+
+        
+
+
+
+
+
+
+
+    </form>
+    
+    
+</body>
+</html>
