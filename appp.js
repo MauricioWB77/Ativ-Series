@@ -1,3 +1,3 @@
 console.log("primeiro comando JS!");
 alert("Bem-Vindo ao curso!");
-documemt.write('Testando Write');
+document.write('Testando Write');
